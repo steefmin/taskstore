@@ -1,0 +1,24 @@
+{
+  "name": "taskstore",
+  "version": "1.0.0",
+  "description": "Task store for Elsje on heroku with Express and nodeJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steefmin/taskstore.git"
+  },
+  "author": "Steef Min",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steefmin/taskstore/issues"
+  },
+  "homepage": "https://github.com/steefmin/taskstore#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.6"
+  }
+}
